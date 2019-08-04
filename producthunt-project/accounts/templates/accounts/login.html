@@ -6,11 +6,9 @@
 {{ error }}
 <br />
 <br />
-
-
 {% endif %}
 
-<h1> Login</h1>
+<h1>Login</h1>
 
 <form method="POST" action="{% url 'login' %}">
 {% csrf_token %}
@@ -21,7 +19,6 @@ Username:
 Password:
 <br />
 <input type="password" name="password" />
-<br />
 <br />
 <br />
 <input class="btn btn-primary" type="submit" value="Login" />

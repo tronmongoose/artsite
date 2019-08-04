@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if error %}
+{{ error }}
+<br />
+<br />
+{% endif %}
+
+<h1>What art do you want to show off?</h1>
+
+<form method="POST" action="{% url 'create' %}" enctype="multipart/form-data">
+{% csrf_token %}
+About the Art:
+<br />
+<input type="text" name="title" />
+<br />
+The Artist:
+<br />
+<input type="textbox" name="body" />
+<br />
+More Information (enter url):
+<br />
+<input type="text" name="url" />
+<br />
+Thumbnail:
+<br />
+<input type="file" name="icon" />
+<br />
+Image:
+<br />
+<input type="file" name="image" />
+<br />
+<br />
+<input class="btn btn-primary" type="submit" value="Add Art" />
+</form>
+
+{% endblock %}
