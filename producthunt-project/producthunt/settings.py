@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'producthunt.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'artproject',
+        'NAME': 'artproject2',
         'USER':'postgres',
         'PASSWORD':'dog722',
         'HOST':'localhost',
@@ -132,3 +132,8 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
