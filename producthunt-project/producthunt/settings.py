@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'artproject2',
-        'USER':'postgres',
-        'PASSWORD':'django1234',
+        'USER':'djangodbman2',
+        'PASSWORD':'django123',
         'HOST':'localhost',
         'PORT':'5432',
     }
