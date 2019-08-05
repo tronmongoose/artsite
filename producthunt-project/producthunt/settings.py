@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'artproject2',
-        'USER':'postgres',
+        'USER':'djangodbman2',
         'PASSWORD':'dog722',
         'HOST':'localhost',
         'PORT':'5432',
