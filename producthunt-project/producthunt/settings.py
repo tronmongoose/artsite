@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'artproject2',
         'USER':'djangodbman2',
-        'PASSWORD':'dog722',
+        'PASSWORD':'django123',
         'HOST':'localhost',
         'PORT':'5432',
     }
