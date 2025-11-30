@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+*.pyc
+
+# Node
+node_modules/
+dist/
+*.log
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Local storage (agent guardrails state files)
+.agent_guardrails/
+.agent_guardrails_js/
+
+# Test coverage
+.coverage
+coverage/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
